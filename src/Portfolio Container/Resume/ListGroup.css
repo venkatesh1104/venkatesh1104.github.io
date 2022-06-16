@@ -1,0 +1,164 @@
+
+
+.heading
+{ 
+    text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+    font-weight: 20px;
+    font-family: calibri;
+}
+.heading::before{
+	content: '';
+	background: #111;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform:translateY(54px);
+
+}
+.heading::after
+{
+	content: '';
+	background: #ff7f50;
+	height: 10px;
+	width: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform:translateY(8px);
+
+}
+.list-group a:hover
+{
+	color: #111;
+	text-decoration: none;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+
+	color:#111;
+	background-color:#ffdab9;
+	
+  }
+  .tab-pane
+  {
+	font-size: 1rem;
+	font-family: calibri;
+  }
+  a{
+	  font-size: 1rem;
+	  font-family: calibri;
+	 
+  }
+
+  .Progressbar-Continer
+{
+place-content: center;
+font-family: "calibri", sans-serif;
+margin-top: -20px;
+
+}
+
+
+.Progress-title h6
+{
+font-size: 10px;
+font-weight: 50;
+color: #111;
+margin: 0 0 10px;
+}
+.Progress{
+	background-color: #ff7f50;
+}
+.Progress-bar
+{
+	height: 10px;
+	background-color: #ff7f50;
+    border: 1px solid #000;
+	box-shadow: 0 2px 2px #4f4f4f;
+	margin-bottom: 5px;
+	overflow: visible;
+	position: relative;
+}
+
+.progress .Progress-bar
+{
+border-radius: 20px;
+border:1px solid #000;
+animation: animate-positive 2s;
+
+}
+
+.Progress .Progress-value
+{
+width: 40px;
+height:20px;
+font-size:1rem;
+position:absolute;
+bottom: -27px;
+left:7rem;
+color: #FF5823;
+}
+
+li{
+	font-family: calibri;
+	font-weight: 300;
+	
+	
+}
+
+.btn-sm {
+    padding: 2px 2px;
+    font-size: 1.rem;
+    border-radius: 8px;
+	background-color: #FF5823;
+	color: white;
+	width: 15%;
+}
+.Progress-tiltle h6
+{
+ color:#FF5823 ;
+}
+
+@media screen and (max-width: 375px)
+{
+	a{
+		font-size: 15px;
+		width: 8em;
+	}
+	.tab-pane
+	{
+		font-size: 14px;
+		width: 8em;
+		margin-left: 3rem;
+		
+	}
+}
+@media screen and (max-width: 280px)
+{
+	.list-group a{
+		margin-right: 3rem;
+		font-size: 0.8rem;
+	}
+	.Progress
+	{
+     width: 5rem;
+	}
+	.Progress-value
+	{
+		margin-left:-3rem;
+		margin-bottom: 2rem;
+	}
+
+	.tab-pane
+	 {
+		font-size: 0.8rem;
+		margin-right: 4rem;
+		width: 5rem;
+	}
+	
+	
+}
